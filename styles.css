@@ -48,8 +48,8 @@ ul {
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: #fff;
-    background-color: #04AA6D;
+    color: #2b2525;
+    background-color: #cce2da;
     border: none;
     border-radius: 15px;
     
@@ -142,8 +142,13 @@ img {
     width: 170%;
 }
 
-.services{
+.services{ padding: auto;
+    margin: auto; align-self: start;
 
+}
+.services h2{
+    text-align: center;
+    padding-top: 5px;
 }
 
 .service-items {background-image: url(Assets/william-thomas-ny6tO4ItOEY-unsplash.jpg
@@ -170,7 +175,7 @@ img {
     grid-row-gap: 22px;
     } */
 
-.products {
+.products {background-color: thistle;
     padding: 50px;
 
     text-align: center;
@@ -208,12 +213,9 @@ img {
         text-align: center;
     }
 
-    .footer{
-        background-image:url(Assets/one-zone-studio-_GTzs6Yr8_M-unsplash.jpg);
-        height: 10vh;
+    .our-team{ background-color: thistle;
+        margin: auto;
     }
-
-    .container h3{
-        text-align: center;
-        padding-bottom: 3px;
-    }
+.footer{background-color: #2b2525;
+    text-align: center;
+}
